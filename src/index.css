@@ -1,0 +1,17 @@
+:root {
+  --color-text: #333333;
+  --color-background: #f0f0f0;
+  --color-primary: #3498db;
+  --color-secondary: #2ecc71;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-self: center;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
